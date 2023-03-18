@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("wallpaper.jpg");
+    background-color:#f0ff65ba;
+    font-family: 'Arial';
+}
+
+.parent{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    height: auto;
+}
+.student{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px;
+    
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 15px ;
+
+}
+
+.faculty{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px;
+
+    
+    
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 15px ;
+
+}
+
+.student h2{
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+.faculty h2{
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+#Student_Gmail{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Student_Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Student_Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+#Student_reg{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+#Faculty_Gmail{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Faculty_Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Faculty_Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+#Faculty_reg{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
