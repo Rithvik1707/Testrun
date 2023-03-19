@@ -16,8 +16,8 @@
 
         <input type="Password" name="Pass" id="Pass" placeholder="Password">
         <br><br>
-        <a href = home.html>
-            <input type="button" name="log" id="log" value="Log In">
+        <a>
+            <input type="button" name="log" id="log" value="Log In" onclick="auth()">
             <br><br>   
         </a>
 
@@ -29,7 +29,23 @@
         
     </form>
 </div>
+<script>
+    function auth(){
+        var userid = document.getElementById("Uname").value;
+        var password = document.getElementById("Pass").value;
+        if(userid == "admin" && password == "admin")
+        {
+            window.location.assign("home.html");
+            alert("Login Succesfull");
+        }
+        else{
+            alert("Invalid");
+            return;
+        }
+    }
+</script>
+
+
 </body>
 </html>
-
   
